@@ -3,9 +3,12 @@
 MAX_SIZE=64
 LENGTH=48
 
+# use -l to set your password size, 48 by default is set (64 is the max size)
+
 while getopts "vl:" OPTION  ; do
 
 	case ${OPTION} in
+ 		#still have to implement verbose functionality
 		v)
 			VERBOSITY="true"	
 		;;
